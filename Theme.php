@@ -1,6 +1,6 @@
 <?php
 
-namespace Shopware\Themes\KhadiTheme;
+namespace Shopware\Themes\TestTheme;
 
 use Shopware\Components\Form as Form;
 
@@ -9,7 +9,7 @@ class Theme extends \Shopware\Components\Theme
     protected $extend = 'Responsive';
 
     protected $name = <<<'SHOPWARE_EOD'
-KhadiTheme
+TestTheme
 SHOPWARE_EOD;
 
     protected $description = <<<'SHOPWARE_EOD'
